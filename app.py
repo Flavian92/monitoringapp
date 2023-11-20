@@ -1,3 +1,6 @@
+#This Python script creates a simple Flask web application that monitors CPU and memory usage using the psutil library. 
+#If either the CPU usage or memory usage exceeds 80%, it displays a message suggesting scaling up.
+
 import psutil
 from flask import Flask, render_template
 
